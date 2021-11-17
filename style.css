@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset End */
+
+/*Utility Class Beginning*/
+.flexed{
+    display: flex;
+}
+
+.flex-2{
+    flex: 2;
+}
+
+/* Utility Class End */
+
+/* Headline Start */
+.searchbar{
+    min-height: 30px;
+    min-width: 450px;
+}
+
+.log{
+    min-height: 30px;
+    min-width: 100px;
+    background-color: #2b78e4;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headline{
+    background-color: lightgrey;
+    min-height: 40px;
+    min-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    gap: 1.5em;
+}
+
+.web-head{
+    background-color: lightgrey;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* Headline End */
+
+/* Page container start */
+.container{
+    background-color: white;
+    min-height: 800px;
+    width: 60%;
+    margin: 0 auto;
+}
+/* Page container end */
+
+/* Main content Start */
+.hero{
+    background-color: white;
+    min-height: 250px;
+    min-width: 100%;
+}
+
+.displays{
+    background-color: white;
+    min-height: 200px;
+    gap: 1.5em;
+    margin-right: 1.5em;
+}
+
+.def-head{
+    font-size: 60px;
+}
+
+.display-1{
+    border: 3px solid black;
+    min-height: 200px;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+.sub-definition{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+#japan{
+    color: blue;
+    text-decoration: underline;
+}
+
+#ninjutsu{
+    color: blue;
+    text-decoration: underline;
+}
+
+.display-2{
+    border: 3px solid black;
+    min-height: 200px;
+    padding: 1.5rem;
+}
+
+.definition{
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.def-body{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 2em
+}
+
+#program{
+    color: blue;
+    text-decoration: underline;
+}
+
+#focus{
+    color: blue;
+    text-decoration: underline;
+}
+
+#likes-butt1{
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 35px;
+    width: 65px;
+    background-color: #ffd966;
+}
+
+#likes-butt2{
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 35px;
+    width: 65px;
+    background-color: #ffd966;
+}
+/* Main Content End*/
+
+/* Side Content Start */
+.sidebar{
+    height: 270px;
+    flex: 1;
+    background-color: white;
+    border: 2px solid black;
+    padding: 1.5rem;
+}
+
+.sidebar h2{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.sidebar button{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 20px;
+    width: 300px;
+    min-height: 80px;
+    background-color: #93c47d;
+}
+/* Side Content End */

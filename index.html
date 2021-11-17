@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headline flexed">
+            <header class="web-head">Dojonary</header>
+            <input type="text" class="searchbar" placeholder="Search">
+            <button onclick="changeLog();" id="logButton" class="log">Login</button>
+        </div>
+        <div class="hero flexed">
+            <div class="displays flex-2">
+                <div class="display-1">
+                    <h1 class="def-head">ninja</h1>
+                    <div class="def-body flexed">
+                        <h4 class="sub-definition">noun <br>Plural: <em>ninjas</em></h4>
+                        <h3 class="definition">A practitioner skilled in the <a id="japan" href="#">Japanese</a> art of
+                            <a id="ninjutsu" href="#">ninjutsu</a> 
+                        </h3>
+                    </div>
+                    <button onclick="changeLikes();" id="likes-butt1">Likes</button>
+                </div>
+                <div class="display-2">
+                    <h1 class="def-head">ninja</h1>
+                    <div class="def-body flexed">
+                        <h4 class="sub-definition">noun <br>Plural: <em>ninjas</em></h4>
+                        <h3 class="definition">A <a id="program" href="#">Programmer</a> who breaks down problems with 
+                            <a id="focus" href="#">zen</a>-like focus 
+                        </h3>
+                    </div>
+                    <button onclick="changeLikes2();" id="likes-butt2">Likes</button>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h2>Dojonary is defined by YOU!</h2>
+                <button onclick="hide();" id="defRemove" class="add">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
